@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+      <header>
+
+
+    <nav>
+      <ul>
+        <a href="">
+            <img class="logo" src="logo2.png">
+       </a>
+<li class="items"><a href="#">Home</a></li>
+<li class="items"><a href="#">About</a></li>
+<li class="items"><a href="#">Blogs</a></li>
+<li class="items"><a href="#">Contact</a></li>
+<li class="btn"><a href="#"><span class="material-icons md-48">menu</span></a></li>
+<!-- <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li> -->
+<!-- <span class="material-icons md-48">menu</span> -->
+</ul>
+</nav>
+</header>
+    <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+    </script>
+  </body>
+</html>
