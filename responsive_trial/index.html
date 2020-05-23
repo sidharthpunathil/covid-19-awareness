@@ -8,11 +8,24 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript">
+        
+      $(window).on("scroll",function() {
+          if($(window).scrollTop()) {
+              $('nav').addClass('black')
+          }
+          else {
+              $('nav').removeClass('black');
+          }
+      })
+      
+      </script> 
+  
+  
+  
   </head>
   <body>
-      <header>
-
-
+ <header>
   <nav>
       <ul>
         <a href="">
@@ -27,9 +40,10 @@
       <!-- <span class="material-icons md-48">menu</span> -->
       </ul>
       <div class="container">
+      </nav>
       <h1 class="nav-header">Coronavirus disease (COVID-19) outbreak</h1>
       <p class="nav-text">Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and requiring special treatment. Older people, and those with underlying medical problems</p>
-</nav>
+
 </header>
 <section>
   <div class="container">
