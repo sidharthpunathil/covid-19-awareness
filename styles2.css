@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: linear-gradient(rgba(119, 113, 113, 0.4),rgba(0, 0, 0)),url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    transition: height 0.4s;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding-right: 43px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 32px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.4s;
+}
+
+.logo {
+    height: 100px;
+    float: left;
+    margin: 1px 100px;
+    transition: height 0.6s;
+}
+
+/* .logo.img {
+    height: 20px;
+} */
+
+h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 350px;
+    color: white;
+        
+}   
+
+.main {
+    padding: 20px;
+    width: 80%;
+    margin: 50px auto;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.description{
+    width: 80%;
+    margin: 50px auto;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 28px;
+    /* width: 80%; */
+}
+
+
+/* nav.sticky {
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0));
+    background: black;
+} */
+
+
+
+.sticky {
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0));
+    background: black;
+    
+}  
+
+/* .burget div{
+    font-size: 20px;
+    width: 25px;
+    height: 50px;
+    background-color: white;
+    margin: 5px;
+} */
+
+.material-icons {
+    display: none;
+    color: white;
+    font-size: 48px;
+
+}
+
