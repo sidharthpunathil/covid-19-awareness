@@ -108,7 +108,7 @@ nav ul li.btn.hide i:before{
 }
 
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0,0.7)),url(banner.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0,0.7)),url(banner.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -169,11 +169,14 @@ header {
   }
   .nav-text {
     font-size: 1rem;
+    padding-top: .5rem;
+    justify-content: center;
+    text-align: center;
   }
 }
 
 nav.black {
-  background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0))
+  background: linear-gradient(rgba(0, 0, 0  ),rgba(0, 0, 0))
 }
 
 
