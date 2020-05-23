@@ -11,11 +11,15 @@ nav{
   width: 100%;
   padding: 0;
   margin: 0;
+  border-radius: 50px;
+  border-to;
 }
 
 ul {
   justify-content: center;
   padding-top: 22px;
+  /* margin-bottom: 10px; */
+
 }
 
 nav ul{
@@ -116,7 +120,7 @@ nav ul li.btn.hide i:before{
 }
 
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0,0.7)),url(banner.png);
+  background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0,0.1)),url(banner.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
