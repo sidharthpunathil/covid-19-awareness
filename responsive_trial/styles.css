@@ -6,6 +6,11 @@
   font-family: 'Montserrat',sans-serif;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 nav{
   position: fixed;
   width: 100%;
@@ -81,6 +86,7 @@ nav ul li.btn{
 nav ul li.btn.hide i:before{
   content: '\f00d';
 }
+
 @media all and (max-width: 900px){
   nav{
     padding: 5px 30px;
