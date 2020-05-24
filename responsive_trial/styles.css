@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat',sans-serif;
+  width: 100%;
 }
 
 
@@ -119,6 +120,7 @@ nav ul li.btn.hide i:before{
 .logo {
     float: left;
     height: 80px;
+    width: auto;
     float: left; 
     margin: 1px 100px;
     transition: height 0.6s;
@@ -157,7 +159,7 @@ header {
 .section-title {
   font-weight: 500;
   font-size: 42px;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 nav.black {
@@ -216,6 +218,89 @@ nav.black {
 }
 
 
+
+.main-heading-2 {
+  text-align: center;
+  color: red;
+  padding: 10px;
+
+}
+
+.container-2 {
+  /* padding: 10%; */
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0,0.1);
+}
+
+.section-title-2 {
+  text-align: center;
+  font-size: 42px;
+}
+
+.image-container {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  /* flex-direction: row; */
+}
+
+.internal {
+padding: 10px;
+flex: 1;
+}
+
+.internal img {
+  max-width: 300px;
+  height: auto;
+}
+
+.internal p {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.main-heading-3 {
+ text-align: center;
+ color: red;
+ padding: 40px 0px 0px 0px;
+}
+
+.section-title-3 {
+  text-align: center;
+ padding: 0px 0px 0px 20px;
+ font-size: 48px;;
+  
+}
+
+.footer {
+  /* width: 100vw;
+  display: block;
+  overflow: hidden; */
+  padding: 70px 0px;
+  background-color: lightcoral;
+  flex: 1;
+  flex-direction: row;
+}
+
+
+.inner-footer {
+  padding: 20px 0px 0px 80px;
+  width: 90%;
+}
+
+.footer_first {
+  float: right;
+  text-decoration: none;
+  padding: 60px;
+  margin: 40px;
+}
+
+.logo-container img {
+  max-width: 200px;
+}
+
 @media only screen and (max-width: 1605px) {
   .nav-header {
     font-size: 2rem;
@@ -239,7 +324,7 @@ nav.black {
   }
 
   .section-description p {
-    padding: 2rem;
+    /* padding: 2rem; */
   }
 }
 
@@ -247,11 +332,12 @@ nav.black {
 
   .logo {
     height: 50px;
+    width: auto;
   }
 
   .nav-header {
     font-size: 1.5rem;
-    padding: 440px 0 0px 0px;
+    padding: 65% 20px 20px 20px;
     color: #ffffff;
   }
   .nav-text {
@@ -260,8 +346,8 @@ nav.black {
     justify-content: center;
     text-align: center;
   }
-  .section-description p {
-    padding-left: 0;
+  .section-description {
+    padding: 0;
   }
   .people{
     display: none;
@@ -269,56 +355,40 @@ nav.black {
 
   .section-description p {
     padding-left: 0;
+    font-size: 16px;
   }
   .image-container {
+    margin: 0;
+    /* padding-left: 10%;; */
+    justify-content: center;
     flex-direction: column;
+    /* text-align: center; */
   }
-}
+  .internal {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+  }
 
+  .internal p{
+  font-size: 16px;
 
-.main-heading-2 {
-  text-align: center;
-  color: red;
-  padding: 10px;
+  }
 
-}
+  .internal img{
+    text-align: center;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+  }
 
-.container-2 {
-  padding: 10%;
-  background-color: rgba(0, 0, 0,0.1);
-}
+  .section-title, .section-title-2 {
+    font-size: 26px;
+  }
 
-.section-title-2 {
-  text-align: center;
-  font-size: 42px;
-}
+  .main-heading, .main-heading-2 {
+    font-size: 22px;
+    margin: 0;
+  }
 
-.image-container {
-  display: flex;
-  padding: 20px;
-  text-align: center;
-  margin: 20px;
-  /* flex-direction: row; */
-}
-
-.internal {
-padding: 10px;
-flex: 1;
-}
-
-.internal p {
-  font-weight: bold;
-}
-
-.main-heading-3 {
- text-align: center;
- color: red;
- padding: 40px 0px 0px 0px;
-}
-
-.section-title-3 {
-  text-align: center;
- padding: 0px 0px 0px 20px;
- font-size: 48px;;
-  
 }
